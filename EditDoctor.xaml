@@ -1,0 +1,20 @@
+﻿<Window x:Class="DoctorAppointment.EditDoctor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edit Doctor" Height="350" Width="400">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Doctor Name:"/>
+            <TextBox Name="txtDoctorName" Width="300" Height="30" Margin="5"/>
+
+            <TextBlock Text="Specialist Area:"/>
+            <TextBox Name="txtSpecialistArea" Width="300" Height="30" Margin="5"/>
+
+            <TextBlock Text="Time Period:"/>
+            <TextBox Name="txtTimePeriod" Width="300" Height="30" Margin="5"/>
+
+            <Button Content="Save Changes" Width="200" Height="40" Margin="10" Click="EditDoctor_Click"/>
+            <Button Content="Back" Width="200" Height="40" Margin="10" Click="Back_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
